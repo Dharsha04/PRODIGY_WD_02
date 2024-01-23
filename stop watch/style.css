@@ -1,0 +1,99 @@
+body {
+    background-image: linear-gradient(180deg,black,#29ba80,black);
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    font-size: 48px;
+    font-family: 'Times New Roman', Times, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+    text-align: center;
+    line-height: 50px;
+    padding: 0 64px;
+    margin: 0;
+  }
+  
+  .stopwatch {
+    display: grid;
+    justify-items: center;
+    grid-row-gap: 23px;
+    width: 100%;
+    padding-top: 25px;
+  }
+  
+  div.rectangle {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    height: 170px;
+    width: 370px;
+  
+    border: 2px solid;
+    /* border-radius: 50%; */
+    /* box-shadow: 5px -1px 5px; */
+    box-shadow: 0 4px 58px 0 rgba(233, 218, 218, 0.718), 0 6px 20px 0 #ffffffe0;
+  }
+  div.quotes {
+    padding: 10px;
+  }
+  .time {
+    font-family: "Roboto Mono", monospace;
+    font-weight: 300;
+    font-size: 48px;
+  }
+ 
+  .controls {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+  }
+  
+  button {
+    cursor: pointer;
+    background: transparent;
+    padding: 0;
+    border: none;
+    margin: 0;
+    outline: none;
+  }
+  
+  #playButton {
+    display: block;
+    height: 40px;
+    width: 80px;
+    margin-top: 50px;
+    border: solid 2px white;
+    box-shadow: 2px 2px 2px;
+    border-radius: 16px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  #pauseButton {
+    display: none;
+    box-shadow: 2px 2px 2px;
+    height: 40px;
+    width: 100px;
+    margin-top: 50px;
+    border: solid 2px white;
+    border-radius: 16px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  #resetButton{
+    height: 40px;
+    width: 100px;
+    border: solid 2px white;
+    border-radius: 16px;
+    box-shadow: 2px 2px 2px;
+    margin-top: 50px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+  }
