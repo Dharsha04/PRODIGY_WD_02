@@ -18,19 +18,19 @@ function timeToString(time) {
     return `${formattedMM}:${formattedSS}:${formattedMS}`;
   }
   
-  // Declare variables to use in our functions below
+
   
   let startTime;
   let elapsedTime = 0;
   let timerInterval;
   
-  // Create function to modify innerHTML
+  
   
   function print(txt) {
     document.getElementById("display").innerHTML = txt;
   }
   
-  // Create "start", "pause" and "reset" functions
+  
   
   function start() {
     startTime = Date.now() - elapsedTime;
@@ -53,7 +53,7 @@ function timeToString(time) {
     showButton("PLAY");
   }
   
-  // Create function to display buttons
+  
   
   function showButton(buttonKey) {
     const buttonToShow = buttonKey === "PLAY" ? playButton : pauseButton;
@@ -61,7 +61,7 @@ function timeToString(time) {
     buttonToShow.style.display = "block";
     buttonToHide.style.display = "none";
   }
-  // Create event listeners
+  
   
   let playButton = document.getElementById("playButton");
   let pauseButton = document.getElementById("pauseButton");
